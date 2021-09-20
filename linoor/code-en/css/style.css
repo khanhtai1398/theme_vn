@@ -89,7 +89,7 @@
  ***/
 
 :root {
-  --thm-font: "Teko", sans-serif;
+  --thm-font:'Roboto', sans-serif;
   --thm-base: #ffaa17;
   --thm-base-rgb: 255, 170, 23;
   --thm-black: #222429;
@@ -802,7 +802,7 @@ img {
   position: absolute;
   left: 0px;
   top: 100%;
-  width: 220px;
+  width: 240px;
   z-index: 100;
   display: none;
   background: #ffffff;
@@ -840,7 +840,7 @@ img {
   padding: 5px 0px;
   line-height: 24px;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 14px;
   color: #171b27;
   letter-spacing: 0.03em;
   text-align: left;
@@ -2067,6 +2067,7 @@ img.lazy-image.loaded {
   position: relative;
   display: block;
   max-width: 800px;
+  text-align: center;
 }
 
 .banner-two .banner-carousel .content-box .inner {
@@ -2101,8 +2102,8 @@ img.lazy-image.loaded {
 
 .banner-carousel .content-box h1 {
   display: block;
-  font-size: 80px;
-  line-height: 1em;
+  font-size: 60px;
+  line-height: 1.2em;
   color: #ffffff;
   font-weight: 600;
   opacity: 0;
@@ -2117,7 +2118,7 @@ img.lazy-image.loaded {
 }
 
 .banner-three .banner-carousel .content-box h1 {
-  font-size: 120px;
+  font-size: 40px;
   color: var(--thm-black);
   font-weight: 500;
 }
@@ -2384,7 +2385,7 @@ img.lazy-image.loaded {
 
 @media (min-width: 1200px) {
   .banner-one-page .banner-carousel .content-box h1 {
-    font-size: 150px;
+    font-size: 100px;
   }
 }
 
@@ -2704,7 +2705,7 @@ img.lazy-image.loaded {
 }
 
 .sec-title.centered {
-  max-width: 650px;
+  max-width: 100%;
   margin: 0 auto;
   margin-bottom: 50px;
 }
@@ -2722,8 +2723,8 @@ img.lazy-image.loaded {
 .sec-title h2 {
   position: relative;
   display: block;
-  font-size: 70px;
-  line-height: 0.9em;
+  font-size: 40px;
+  line-height: 1.2em;
   text-transform: uppercase;
   color: var(--thm-black);
   font-weight: 400;
@@ -2892,12 +2893,12 @@ img.lazy-image.loaded {
   position: relative;
   margin: 0;
   margin-top: 90px;
-  font-size: 20px;
+  font-size: 16px;
   text-transform: uppercase;
   color: #ffffff;
   font-weight: 400;
   letter-spacing: 1px;
-  line-height: 1.1em;
+  line-height: 1.2em;
 }
 
 .service-block .inner-box h6 a {
@@ -3049,7 +3050,7 @@ img.lazy-image.loaded {
 
 .about-section .text-column .sec-title .lower-text {
   text-transform: uppercase;
-  font-size: 26px;
+  font-size: 18px;
   font-weight: 300;
   letter-spacing: 0;
   color: var(--thm-base);
@@ -3059,7 +3060,7 @@ img.lazy-image.loaded {
   position: relative;
   font-size: 20px;
   font-weight: 300;
-  line-height: 1.7em;
+  line-height: 1.5em;
   letter-spacing: 0.02em;
 }
 
@@ -3123,6 +3124,7 @@ img.lazy-image.loaded {
   position: relative;
   display: block;
   padding: 21px 5px;
+  font-size: 15px;
   width: 90px;
   height: 90px;
   line-height: 24px;
@@ -3214,6 +3216,9 @@ img.lazy-image.loaded {
   padding: 190px 80px 50px 70px;
   background: var(--thm-base);
   border-radius: 50%;
+}
+.live-section .main-image-box .round-inner .title h2 {
+    font-size: 40px;
 }
 
 .live-section .main-image-box .vid-link {
@@ -3325,7 +3330,7 @@ img.lazy-image.loaded {
 
 .live-section .main-image-box .title h3 {
   text-transform: uppercase;
-  line-height: 1em;
+  line-height: 1.2em;
 }
 
 .live-section .main-image-box .more-link {
@@ -3652,6 +3657,10 @@ img.lazy-image.loaded {
 ====================================================================
 
 ***/
+.gallery-section .upper-row .sec-title h2 {
+    font-size: 25px;
+}
+
 
 .gallery-section {
   position: relative;
@@ -3665,6 +3674,7 @@ img.lazy-image.loaded {
 .gallery-section .upper-row .sec-title {
   position: relative;
   float: left;
+  /*text-align: center;*/
 }
 
 .gallery-section .upper-row .filters {
@@ -3696,13 +3706,13 @@ img.lazy-image.loaded {
   position: relative;
   display: inline-block;
   vertical-align: top;
-  font-size: 24px;
+  font-size: 16px;
   line-height: 40px;
   padding: 0px 0px;
   cursor: pointer;
   color: var(--thm-text);
   font-weight: 300;
-  margin: 0 0px 10px 30px;
+  margin: 0 0px 10px 20px;
   text-transform: uppercase;
   letter-spacing: 1px;
   background: none;
@@ -4046,7 +4056,7 @@ img.lazy-image.loaded {
 
 .fact-counter .column .inner .counter-title {
   position: relative;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 400;
   color: #999b9f;
   letter-spacing: 1px;
@@ -4099,8 +4109,8 @@ img.lazy-image.loaded {
   min-height: 240px;
   background: var(--thm-base);
   font-weight: 400;
-  font-size: 40px;
-  line-height: 1.2em;
+  font-size: 26px;
+  line-height: 1.3em;
   text-transform: uppercase;
   letter-spacing: 0px;
   color: var(--thm-black);
@@ -4158,6 +4168,7 @@ img.lazy-image.loaded {
   line-height: 1.15em;
   color: var(--thm-black);
   margin-bottom: 10px;
+  font-size: 26px;
 }
 
 .trusted-section .feature .sub-text {
@@ -4513,8 +4524,8 @@ img.lazy-image.loaded {
 .parallax-section .content-box h2 {
   position: relative;
   display: block;
-  font-size: 70px;
-  line-height: 1em;
+  font-size: 35px;
+  line-height: 1.4em;
   text-transform: uppercase;
   color: #ffffff;
   font-weight: 500;
@@ -4928,11 +4939,13 @@ img.lazy-image.loaded {
   font-size: 34px;
   color: var(--thm-black);
   margin-bottom: 35px;
+  line-height: 30px;
 }
 
 .news-block .lower-box h5 a {
   color: var(--thm-black);
   transition: 500ms;
+  font-size: 20px;
 }
 
 .news-block .lower-box h5 a:hover {
@@ -5368,7 +5381,7 @@ img.lazy-image.loaded {
   float: left;
   display: block;
   font-size: 60px;
-  line-height: 0.85em;
+  line-height: 1.2em;
   text-transform: uppercase;
   color: var(--thm-black);
   font-weight: 500;
@@ -5424,7 +5437,7 @@ img.lazy-image.loaded {
 
 .main-footer h6 {
   position: relative;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   color: #ffffff;
   text-transform: uppercase;
@@ -5452,6 +5465,7 @@ img.lazy-image.loaded {
   line-height: 1.5em;
   letter-spacing: 0.1em;
   margin: 0 0 30px;
+  font-size: 16px;
 }
 
 .main-footer .links-widget ul li {
@@ -5466,7 +5480,7 @@ img.lazy-image.loaded {
 .main-footer .links-widget ul li a {
   position: relative;
   color: #999b9f;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 30px;
   text-transform: capitalize;
   letter-spacing: 0.07em;
@@ -5542,6 +5556,7 @@ img.lazy-image.loaded {
   letter-spacing: 0.1em;
   padding-left: 30px;
   margin-bottom: 5px;
+  font-size: 16px;
 }
 
 .main-footer .info-widget ul li.address {
@@ -5584,7 +5599,7 @@ img.lazy-image.loaded {
   display: block;
   font-weight: 300;
   line-height: 1.5em;
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 0.1em;
   margin: 25px 0 0;
 }
@@ -5688,8 +5703,8 @@ img.lazy-image.loaded {
 .main-footer__two .footer-widget h3 {
   margin: 0;
   color: #fff;
-  font-size: 80px;
-  line-height: 0.78;
+  font-size: 70px;
+  line-height: 1.2;
   text-transform: uppercase;
   max-width: 900px;
   margin-left: auto;
@@ -6043,6 +6058,7 @@ img.lazy-image.loaded {
   -webkit-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
+  font-size: 20px;
 }
 
 .service-block-two .inner-box:hover h5,
@@ -6057,7 +6073,7 @@ img.lazy-image.loaded {
 .service-block-two .text {
   position: relative;
   display: block;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.7em;
   font-weight: 300;
   letter-spacing: 0.1em;
@@ -6190,7 +6206,7 @@ img.lazy-image.loaded {
 }
 
 .featured-section .feature h6 {
-  font-size: 24px;
+  font-size: 22px;
   text-transform: uppercase;
   left: 1px;
   font-weight: 400;
@@ -6250,7 +6266,7 @@ img.lazy-image.loaded {
   position: relative;
   display: inline-block;
   vertical-align: top;
-  font-size: 24px;
+  font-size: 16px;
   line-height: 40px;
   padding: 0px 0px;
   cursor: pointer;
@@ -6588,7 +6604,7 @@ img.lazy-image.loaded {
 }
 
 .why-us-section .feature h6 {
-  font-size: 24px;
+  font-size: 18px;
   text-transform: uppercase;
   left: 1px;
   font-weight: 400;
@@ -6598,7 +6614,7 @@ img.lazy-image.loaded {
 .why-us-section .feature .text {
   position: relative;
   display: block;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.7em;
   font-weight: 300;
   letter-spacing: 0.1em;
@@ -6910,8 +6926,8 @@ img.lazy-image.loaded {
 .features-section .content-box h2 {
   position: relative;
   display: block;
-  font-size: 70px;
-  line-height: 1em;
+  font-size: 40px;
+  line-height: 1.3em;
   text-transform: uppercase;
   color: #ffffff;
   letter-spacing: 0.01em;
@@ -6965,7 +6981,7 @@ img.lazy-image.loaded {
 }
 
 .features-section .feature-block h6 {
-  font-size: 24px;
+  font-size: 16px;
   line-height: 1.25em;
   margin: 0 0;
   letter-spacing: 0.03em;
@@ -7024,7 +7040,7 @@ img.lazy-image.loaded {
 }
 
 .get-quote-section .featured-block h4 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 400;
   text-transform: uppercase;
   margin-bottom: 25px;
@@ -7123,7 +7139,7 @@ img.lazy-image.loaded {
 
 .get-quote-section .form-box h4 {
   color: var(--thm-black);
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 400;
   text-transform: uppercase;
   margin-bottom: 25px;
@@ -7201,8 +7217,8 @@ img.lazy-image.loaded {
 .fluid-section h3 {
   position: relative;
   display: block;
-  font-size: 60px;
-  line-height: 1.1em;
+  font-size: 35px;
+  line-height: 1.2em;
   text-transform: uppercase;
   color: #ffffff;
   font-weight: 400;
@@ -7252,7 +7268,7 @@ img.lazy-image.loaded {
   float: left;
   display: block;
   font-size: 70px;
-  line-height: 0.85em;
+  line-height: 1.2em;
   text-transform: uppercase;
   color: #ffffff;
   font-weight: 400;
@@ -7433,11 +7449,11 @@ img.lazy-image.loaded {
 }
 
 .discover-block .cap-inner h5 {
-  font-size: 30px;
+  font-size: 20px;
   text-transform: uppercase;
   font-weight: 400;
   color: var(--thm-black);
-  line-height: 1em;
+  line-height: 1.3em;
   margin: 0;
 }
 
@@ -7565,7 +7581,7 @@ img.lazy-image.loaded {
 
 .features-section-two .feature h5 {
   font-weight: 400;
-  font-size: 24px;
+  font-size: 20px;
   margin: 0;
   line-height: 1.2em;
   text-transform: uppercase;
@@ -7632,11 +7648,11 @@ img.lazy-image.loaded {
 }
 
 .features-section-two .right-col .cap-inner h5 {
-  font-size: 30px;
+  font-size: 20px;
   text-transform: uppercase;
   font-weight: 400;
   color: var(--thm-black);
-  line-height: 1em;
+  line-height: 1.3em;
   margin: 0;
 }
 
@@ -7672,7 +7688,7 @@ img.lazy-image.loaded {
   float: left;
   width: 33.333%;
   line-height: 40px;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 400;
   letter-spacing: 0.01em;
   color: var(--thm-black);
@@ -7877,8 +7893,8 @@ img.lazy-image.loaded {
 .testi-block-two .text {
   position: relative;
   display: block;
-  font-size: 44px;
-  line-height: 1.25em;
+  font-size: 30px;
+  line-height: 1.3em;
   font-weight: 400;
   letter-spacing: 0.1em;
   color: #ffffff;
@@ -8027,7 +8043,7 @@ img.lazy-image.loaded {
 
 .counter-block .inner-box {
   position: relative;
-  padding-left: 160px;
+  padding-left: 120px;
   min-height: 140px;
   padding-top: 42px;
 }
@@ -8036,8 +8052,8 @@ img.lazy-image.loaded {
   position: absolute;
   left: 0;
   top: 0;
-  width: 140px;
-  height: 140px;
+  width: 110px;
+  height: 110px;
   display: block;
   text-align: center;
 }
@@ -8085,8 +8101,8 @@ img.lazy-image.loaded {
 
 .counter-block h4 {
   position: relative;
-  line-height: 1.1em;
-  font-size: 24px;
+  line-height: 1.3em;
+  font-size: 16px;
   color: var(--thm-black);
   font-weight: 400;
   text-transform: uppercase;
@@ -8577,9 +8593,9 @@ img.lazy-image.loaded {
 
 .page-banner h1 {
   position: relative;
-  font-size: 100px;
+  font-size: 80px;
   color: #ffffff;
-  line-height: 0.9em;
+  line-height: 1em;
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -10454,9 +10470,9 @@ img.lazy-image.loaded {
   margin: 0;
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 100px;
+  font-size: 70px;
   max-width: 537px;
-  line-height: 1;
+  line-height: 1.2;
   margin-bottom: 25px;
 }
 
@@ -10639,10 +10655,10 @@ img.lazy-image.loaded {
 
 .portfolio-masonary h3 {
   margin: 0;
-  font-size: 80px;
+  font-size: 50px;
   font-weight: 300;
   color: #fff;
-  line-height: 1;
+  line-height: 60px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   max-width: 810px;
